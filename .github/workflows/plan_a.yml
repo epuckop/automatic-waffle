@@ -30,7 +30,7 @@ jobs:
       - name: Run a multi-line script
         run: |          
           echo "Branch: ${GITHUB_REF_NAME}"
-          echo "Commit: ${{ github.event.head_commit.message }}"
-          echo "Repository: ${GITHUB_REPOSITORY}"          
-          echo "Variables: $TF_WORKSPACE"
+          echo "Commit: ${{ github.event.head_commit.message }}"    
+          echo "Ënviroment: ${{ job.environment.name }}"
+          echo "Variables: ${{ env.TF_WORKSPACE }}"
           echo The END
