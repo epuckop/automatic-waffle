@@ -33,4 +33,4 @@ jobs:
           echo "Commit: ${{ github.event.head_commit.message }}"
           echo "Workspace(env variable): ${{ vars.TF_WORKSPACE }}"
           echo "Triger actor: ${{ github.actor }}"
-          echo The END
+          echo The END!
