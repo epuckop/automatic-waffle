@@ -31,6 +31,6 @@ jobs:
         run: |          
           echo "Branch: ${GITHUB_REF_NAME}"
           echo "Commit: ${{ github.event.head_commit.message }}"    
-          echo "Ënviroment: ${{ job.environment.name }}"
+          echo "Ënviroment: ${GITHUB_ENV}"
           echo "Variables: ${{ vars.TF_WORKSPACE }}"
           echo The END
