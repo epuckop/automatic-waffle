@@ -42,3 +42,15 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+
+# Flutter files
+pubspec.lock
+podfile
+podfile.lock
+ios/Podfile
+ios/Podfile.lock
+android/.gradle
+android/app/.gradle
+android/build.gradle
+android/app/build.gradle
